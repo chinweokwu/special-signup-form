@@ -1,27 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.0.1/css/unicons.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Special Signup From</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.0.1/css/unicons.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Special Signup From</title>
 </head>
 <body>
-        <header>
-            <div class="header-signup">
-                <div>
-                    <p>Already have an Intuit account?</p>
-                    <a href="#">I forgot my User ID or Password</a>
-                </div>
-                <button><span><i class='uil uil-padlock'></i></span> Sign In</button>  
-            </div>
-        </header>
+  <header>
+    <div class="header-signin-container">
+      <div class="forget-password">
+        <p>Already have an Intuit account?</p>
+        <a href="#">I forgot my User ID or Password</a>
+      </div>
+      <button class="btn sign-in-btn">
+        <span><i class='uil uil-padlock'></i></span>
+         Sign In
+      </button>  
+    </div>
+  </header>
 
-        <main>
+  <main>
+      <div class="form-header">
+        <div class="main-logo"></div>
+
+        <div class="shild-logos">
+          <span class="mint"></span>
+          <span class="quickbooks"></span>
+          <span class="turbotax"></span>
+        </div>
+      </div>
+
+      <div class="form-container">
+        <h1>Create an Intuit account</h1>
+        <p>One account for everything Intuit, including Mint.
+          <a href="#">Learn more</a>
+        </p>
+        <!-- <span class="block">Already have an account? </span><a href="#">Sign in</a> -->
+
+
+        <form action="" method="">
+          <fieldset>
+            <div class="email flex-column">
+              <label for="email-field">Email address</label>
+              <input type="text" name="user_email" id="email-field">
+            </div>
             
-        </main>
-    
+            <div class="phone flex-column">
+              <label for="phone-field">Phone (recommended)</label>
+              <input type="tel" name="user_phone" id="phone-field">
+              <span class="block sub-title">
+                Standard call, messaging or data rates may apply.
+              </span>
+            </div>
+
+            <div class="password flex-column">
+              <label for="password-field">Password</label>
+              <input type="password" name="user_password" id="password-field">
+            </div>
+          </fieldset>
+          <button class="btn sign-up-btn">
+            <i class='uil uil-padlock'></i></span> Create Account
+          </button>
+        </form>
+      </div>
+  </main>
 </body>
 </html>
