@@ -10,7 +10,7 @@ body {
 }
 
 /* Header */
-.header-signin-container{
+.header-signin-container {
   display: flex;
   justify-content: flex-end;
   font-size: 14px;
@@ -32,7 +32,7 @@ body {
   padding: 5px 20px;
 }
 
-a{
+a {
   color: #169fe3;
   text-decoration: none;
 }
@@ -71,7 +71,7 @@ main {
   flex-direction: column;
 }
 
-.flex-column label{
+.flex-column label {
   text-align: left;
   margin-top: 20px;
 }
