@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eceef1;
+  color: #635e5f;
+}
+
+/* Header */
+.header-signin-container {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+  margin: 10px 30px;
+  align-items: center;
+}
+
+.btn {
+  background-color: #0077c5;
+  border: #4c4c4c solid 1px;
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.sign-in-btn {
+  height: 35px;
+  padding: 5px 20px;
+}
+
+a {
+  color: #169fe3;
+  text-decoration: none;
+}
+
+/* form Header */
+
+.main-logo {
+  width: 118px;
+  height: 35px;
+  background-image: url("https://plugin.intuitcdn.net/identity-authn-core-ui/images/ecosystem_logos_new-a1ca21cc.png");
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.child-logos img {
+  width: 23px;
+  height: 23px;
+  text-align: center;
+  margin: 15px 5px;
+}
+
+.child-logos {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 290px;
+  position: relative;
+  font-size: 20px;
+  color: #8a8c90;
+}
+
+main {
+  width: 100%;
+}
+
+.form-container {
+  margin: 0 auto;
+  background-color: white;
+  width: 380px;
+  border: 1px solid #c7c7c7;
+  padding: 30px;
+  text-align: center;
+  border-bottom: 0;
+}
+
+.block {
+  display: block;
+}
+
+.form-container h1 {
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 25px;
+}
+
+.form-container p {
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-column label {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.flex-column input {
+  margin-top: 10px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #c1c5c8;
+}
+
+.sub-title {
+  font-size: 12px;
+  text-align: left;
+  margin: 3px 0;
+}
+
+fieldset {
+  border: none;
+}
+
+.sign-up-btn {
+  margin: 30px 0;
+  padding: 12px 30px;
+  font-size: 20px;
+  width: 100%;
+  border: #0077c5 solid 1px;
+}
+
+.form-footer p {
+  color: #9ea4b8;
+  font-size: 16px;
+}
+
+.footer-captcha {
+  background-color: #eceef1;
+  width: 380px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 12px;
+  border: 1px solid #c7c7c7;
+  border-top: 0;
+  color: #9ea4b8;
+}
+
+/* footer style */
+.links a {
+  color: #505050;
+  padding: 0 10px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 14px;
+}
+
+.copyright {
+  color: #505050;
+}
+
+.copyright p {
+  padding: 5px 0;
+}

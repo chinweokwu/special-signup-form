@@ -1,0 +1,24 @@
+{
+  "name": "special-signup-form",
+  "version": "1.0.0",
+  "description": "h",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinweokwu/special-signup-form.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinweokwu/special-signup-form/issues"
+  },
+  "homepage": "https://github.com/chinweokwu/special-signup-form#readme",
+  "devDependencies": {
+    "stylelint": "^13.0.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
